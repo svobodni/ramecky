@@ -1,0 +1,27 @@
+#img-area {
+	border: 1px solid #0348a2;
+	border-radius: 0.5em;
+	padding: 0.75em 1.5em;
+	color: #0348a2;
+}
+
+img.res {
+	width: 500px;
+	height: 500px;
+}
+
+img.thumb {
+	width: 80px;
+	height: 80px;
+}
+
+table {
+	width: 150px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+td,th {
+	text-align: center;
+	padding: 5px;
+}
