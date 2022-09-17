@@ -88,8 +88,8 @@
 			</div>
 			<div>
 				<table>
-				<tr><th>Varianta 1</th><th>Varianta 2</th></tr>
-				<tr><td><img src="bg1.png" alt="Varianta 1" class="thumb" /></td><td><img src="bg2.png" alt="Varianta 2" class="thumb" /></td></tr>
+				<tr><th>Varianta 1</th><th>Varianta 2</th><th>Varianta 3</th></tr>
+				<tr><td><img src="bg0.png" alt="Varianta 1" class="thumb" /></td><td><img src="bg1.png" alt="Varianta 2" class="thumb" /></td><td><img src="bg2.png" alt="Varianta 3" class="thumb" /></td></tr>
 				</table>
 			</div>
 			<div class="row">
@@ -97,8 +97,9 @@
 					<p>
 					<label for="stamp">Přidat rámeček:</label>
 					<select name="stamp" id="stamp">
-					  <option value="bg1.png" <?php if ($_POST["stamp"] == "bg1.png") echo "selected"; ?>>Varianta 1</option>
-					  <option value="bg2.png" <?php if ($_POST["stamp"] == "bg2.png") echo "selected"; ?>>Varianta 2</option>
+					  <option value="bg0.png" <?php if ($_POST["stamp"] == "bg0.png") echo "selected"; ?>>Varianta 1</option>
+					  <option value="bg1.png" <?php if ($_POST["stamp"] == "bg1.png") echo "selected"; ?>>Varianta 2</option>
+					  <option value="bg2.png" <?php if ($_POST["stamp"] == "bg2.png") echo "selected"; ?>>Varianta 3</option>
 					</select>
 					</p>
 					<input type="file" name="fileToUpload" id="fileToUpload" style="display:none;" onchange="this.form.submit();" ondrag="this.form.submit();"/>
